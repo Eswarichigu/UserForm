@@ -1,0 +1,11 @@
+<h1 id="tableLabel">User Deatils</h1>
+<table class='table table-striped' aria-labelledby="tableLabel">
+  
+  <tbody>
+    <tr><td>First Name: </td><td><input [(ngModel)]="firstName" placeholder="user First name" /></td></tr>
+    <tr><td>Last Name: </td><td><input [(ngModel)]="lastName" placeholder="User Last Name" /></td></tr>
+    <tr><td>Mobile: </td><td><input [(ngModel)]="mobile" placeholder="Mobile number" /></td></tr>
+    <tr><td>Email: </td><td><input [(ngModel)]="email" placeholder="Email Id" /></td></tr>
+    <tr><td><button (click)="Save()">Save</button></td></tr>
+  </tbody>
+</table>
